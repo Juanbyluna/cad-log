@@ -154,8 +154,8 @@
       <h3 class="float-md-start mb-0">Cover</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Registrer</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Login</a>
+        <a href="" class="nav-link fw-bold py-1 px-0" href="#">Registrer</a>
+        <a href="" class="nav-link fw-bold py-1 px-0" href="#">Login</a>
       </nav>
     </div>
   </header>
@@ -170,7 +170,7 @@
   </main>
 
   <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://github.com/Juanbyluna" class="text-white">@juanbyluna</a>.</p>
   </footer>
 </div>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
