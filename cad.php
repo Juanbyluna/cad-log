@@ -7,7 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='cover.css'>
     <script src='main.js'></script>
-</head>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/login">
+<a class="nav-link fw-bold py-1 px-0 " href="registrer">Registrer</a>
+
 <body>
     
 </body>
