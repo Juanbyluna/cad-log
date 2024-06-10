@@ -145,8 +145,24 @@
 <br><label for=""> crie uma senha  </label><br>
 <input type="password" id="senha" required>
 
-<php?
-?></php>
+<?php
+// verificador de senha que visa a utilização de letras em caixa alta e minusculas 
+function verificarSenha($senha) {
+    $temMaiuscula = preg_match('/[A-Z]/', $senha);
+    $temMinuscula = preg_match('/[a-z]/', $senha);
+
+    if ($temMaiuscula && $temMinuscula) {
+        return "A senha é válida.";
+    } else {
+        return "A senha deve conter letras maiúsculas e minúsculas.";
+    }
+}
+
+// Exemplo de uso
+$senha = "ExemploSenha123";
+echo verificarSenha($senha);
+?>
+
   
 <br><br><br>
 <button onclick="Validar()" color="white"> cadastrar </button>
