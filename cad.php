@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     
 
-<link rel="stylesheet" type="text/css" media="screen" href="./cover.css ">
+<link rel="stylesheet" type="text/css" media="screen" href="cover.css ">
 
 <!-- Custom styles for this template -->
   </head>
@@ -43,8 +43,8 @@
     <div>
       <h3 class="float-md-start mb-0">Registrer</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0 " href="cad.php">Registrer</a>
+        <a class="nav-link fw-bold py-1 px-0 " aria-current="page" href="index.html">Home</a>
+        <a class="nav-link fw-bold py-1 px-0 active" href="cad.php">Registrer</a>
         <a class="nav-link fw-bold py-1 px-0 " href="log.php">Login</a>
       </nav>
     </div>
