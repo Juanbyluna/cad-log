@@ -1,21 +1,21 @@
 <!doctype html>
 <html lang="en" class="h-100" data-bs-theme="auto">
   <head><script src="../assets/js/color-modes.js"></script>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.115.4">
-    <title>Cover Template · Bootstrap v5.3</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content ="Hugo 0.115.4">
+  <title>Cover Template · Bootstrap v5.3</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="./cover.css" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
 
     
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -93,7 +93,6 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
   </head>
   <body class="d-flex h-100 text-center text-bg-dark">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -144,24 +143,7 @@
 
 <br><label for=""> crie uma senha  </label><br>
 <input type="password" id="senha" required>
-
-<?php
-// verificador de senha que visa a utilização de letras em caixa alta e minusculas 
-function verificarSenha($senha) {
-    $temMaiuscula = preg_match('/[A-Z]/', $senha);
-    $temMinuscula = preg_match('/[a-z]/', $senha);
-
-    if ($temMaiuscula && $temMinuscula) {
-        return "A senha é válida.";
-    } else {
-        return "A senha deve conter letras maiúsculas e minúsculas.";
-    }
-}
-
-// Exemplo de uso
-$senha = "ExemploSenha123";
-echo verificarSenha($senha);
-?>
+<br>
 
   
 <br><br><br>
