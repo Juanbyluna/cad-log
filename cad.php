@@ -17,9 +17,9 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
-          <h3 class="float-md-start mb-0">Registrer</h3>
+          <h3 class="float-md-start mb-0">Cadastro</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.php">Home</a>
             <a class="nav-link fw-bold py-1 px-0 active" href="cad.php">Register</a>
             <a class="nav-link fw-bold py-1 px-0" href="log.php">Login</a>
           </nav>
@@ -43,7 +43,7 @@
         </form>
       </div>
       <footer class="mt-auto text-white-50">
-        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://github.com/Juanbyluna" class="text-white">@juanbyluna</a>.</p>
+        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="" class="text-white">@</a>.</p>
       </footer>
     </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>

@@ -35,7 +35,7 @@
         <div>
           <h3 class="float-md-start mb-0">Login</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.php">Home</a>
             <a class="nav-link fw-bold py-1 px-0" href="cad.php">Register</a>
             <a class="nav-link fw-bold py-1 px-0 active" href="log.php">Login</a>
           </nav>
@@ -45,7 +45,7 @@
       <div class="cad">
         <form id="loginForm">
           <label for="email">Digite seu email</label><br>
-          <input type="email" id="email" name="email" required><br>
+          <input type="email" id="email" name="email" required><br><br>
 
           <label for="senha">Digite sua senha</label><br>
           <input type="password" id="senha" name="senha" required><br><br>
@@ -53,6 +53,10 @@
           <button type="submit" color="white">Entrar</button>
         </form>
       </div>
-
       <footer class="mt-auto text-white-50">
        
+      <footer class="mt-auto text-white-50">
+        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://github.com/Juanbyluna" class="text-white">@juanbyluna</a>.</p>
+      </footer>
+     
+</body>
